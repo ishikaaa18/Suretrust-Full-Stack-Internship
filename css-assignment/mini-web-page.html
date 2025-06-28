@@ -38,48 +38,30 @@
         border: 2px solid black;
       "
     >
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim culpa
-      maxime corporis et sed ipsa iure aliquam, sunt voluptatibus magnam amet
-      aperiam eos repellendus rerum cumque optio voluptatum non exercitationem
-      tempore? Sint, distinctio delectus, odio corrupti quos possimus eius
-      accusantium at aspernatur sunt a animi. Officia natus error debitis
-      obcaecati reprehenderit cumque aliquam. Ab consectetur explicabo error
-      voluptatem debitis nostrum esse temporibus suscipit, laudantium rem sunt,
-      unde minima iusto illum reiciendis sequi sed! Numquam hic exercitationem
-      ea a sapiente error culpa. Nobis inventore cupiditate reprehenderit
-      adipisci ducimus beatae enim ab officia quod? Temporibus maiores optio
-      esse nisi quasi sint quidem provident unde. Quos magnam praesentium
-      deserunt itaque nam dicta, ratione corrupti expedita temporibus explicabo
-      sit iusto excepturi cum beatae! Quia esse beatae commodi dolore repellat
-      eius, debitis ut!
+      Inline CSS is useful for quick testing or when you want to apply unique
+      styling to a single element without affecting others. However, it is not
+      recommended for large-scale web development because it mixes content with
+      presentation, making the HTML harder to read and maintain. It also
+      overrides styles from internal and external stylesheets due to its higher
+      specificity. Overall, inline CSS should be used sparingly and preferably
+      avoided in professional projects
     </div>
     <h1 id="internal-heading">
       Internal CSS-Content designed using internal css
     </h1>
     <div class="internal-css">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia modi
-      asperiores illo quae perferendis atque exercitationem cum similique
-      molestiae? Quae libero repudiandae inventore dolor facere? Aspernatur
-      ipsam earum porro impedit?
+      Internal CSS is useful when you want to style a single page uniquely
+      without affecting other pages. It's more organized than inline CSS because
+      it separates structure and style, but it still keeps both in one file.
+      However, it is less efficient than external CSS for styling multiple
+      pages. It's mainly used for small websites or testing purposes in
+      development.
     </div>
     <h1 id="external-heading">
       External CSS-Content designed using external css
     </h1>
     <div class="external-css">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed
-      sit illo laborum, ducimus molestias assumenda! Odio corporis explicabo qui
-      similique sunt? Reiciendis pariatur aut quos voluptas esse aperiam dolorem
-      nesciunt ex, voluptates cumque. Obcaecati suscipit officiis possimus
-      perferendis eligendi perspiciatis sit vel totam, illo quam quas quasi
-      placeat maiores illum explicabo. Fuga recusandae provident, culpa velit
-      laborum itaque odio dolorem, veniam, voluptatem impedit incidunt.
-      Repellendus accusamus sint iusto minus molestias ratione tempora iste
-      ipsum illo, vel ad ducimus? A porro officiis fugiat laboriosam, cupiditate
-      vero saepe veniam deleniti consectetur alias dolorum, blanditiis rerum
-      illo excepturi? Repudiandae natus tenetur fuga necessitatibus pariatur.
-      Deserunt provident, enim eius sed, voluptate voluptas maiores eos atque
-      dolorem aliquam, explicabo mollitia eaque quos ad alias officiis
-      perferendis. Aliquid in doloribus blanditiis asperiores perspiciatis!
+     This approach keeps HTML structure and CSS styling separate, making the code more organized and easier to maintain. It allows you to reuse the same CSS file across multiple web pages, improving consistency and reducing duplication. External CSS is ideal for larger websites as it supports modular design and reduces page clutter. However, it requires an internet connection or correct file path to load properly. It’s the most recommended practice for professional and scalable web development projects.
     </div>
   </body>
 </html>
