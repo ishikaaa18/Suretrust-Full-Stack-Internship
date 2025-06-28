@@ -1,0 +1,9 @@
+.squarelist {
+    list-style: square;
+   
+}
+footer{
+    padding: 40px;
+    background-color: #0e0d0d;
+    color: white;
+}

@@ -1,0 +1,13 @@
+.external-css{
+    background-color: rgb(197, 255, 196);
+    font-size: 26px;
+    color: #000;
+    border: 10px  solid blue;
+    border-radius: 20px;
+    padding: 20px;
+}
+#external-heading{
+    text-decoration: underline;
+    color: #920d0d;
+    text-align: center;
+}
