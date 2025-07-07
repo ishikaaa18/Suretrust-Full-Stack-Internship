@@ -1,0 +1,121 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            background-color: #8E8ED9;
+            height: 50px;
+            width: 100%;
+            align-items: center;  
+            justify-content: space-around;
+
+           
+        }
+        .navbar-contents {
+            display: flex;
+            gap: 60px;
+            font-size: 10px;
+            font-weight: bold;
+            color: black;
+            color: white;
+        }
+        .logo img{
+            height: 30px;
+            width: 30px;
+        }
+        .avatar img{
+            height: 20px;
+            width: 20px;
+        }
+        .banner img {
+            height: 300px;
+            width: 100%;
+        }
+        h1,h2 {
+            text-align: center;
+            font-size: 30px;
+            color: #8E8ED9;
+        }
+        .car-card, .photos-gallery {
+           display: flex;
+           justify-content: space-around;
+           flex-wrap: wrap;  
+        }
+        .card-images{
+            box-shadow: #8E8ED9 0px 0px 10px;
+            padding: 6px ;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .card-images img {
+            border-radius: 10px;
+            box-shadow: #8E8ED9 0px 0px 10px;
+            width: 200px;
+            height: 150px;
+            object-fit: cover;    
+
+
+        }
+        .card-images p {
+            font-size: 12px;
+            font-weight: bold;
+            color: #0d0d0e;
+            font-family: Arial, sans-serif; 
+            margin: 5px 0;
+        }
+        .card-images h1 {
+            font-size: 16px;
+            font-weight: bold;
+           text-align: left;
+            color: #0d0d0e;
+            font-family: Arial, sans-serif; 
+        }
+        .card-images button {
+            background-color: #823119;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+       .gallery-images img {
+            border-radius: 10px;
+            box-shadow: #8E8ED9 0px 0px 10px;
+            width: 300px;
+            height: 150px;
+            justify-content: center;
+        }
+        .gallery-images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .contact-form {
+            display: flex;
+            justify-content:center;
+        }
+        .contact-form img{
+           height: 400px;
+            width: 50%;
+             box-shadow: #8E8ED9 0px 0px 10px;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            padding: 20px 10px 20px 10px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: #8E8ED9 0px 0px 10px;
+        }
+        .form input, .form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+       
